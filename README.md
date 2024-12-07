@@ -38,3 +38,8 @@ The matrix must be arranged in order from 1 to 15, with the final position being
   
 * Pressing 'g' will start the game.
 * New Position of the 'Blank Space' and the No of moves left will be continuously printed onto the terminal prompt until game is not over.
+
+## Compiling the Program
+Type ```cc welcome.c main.c -lncurses``` OR ```cc -o name_of_executable welcome.c main.c -lncurses```
+
+This will create a target executable ```a.out``` OR ```name_of_executable``` on a Unix Based Systems like Linux or Mac. To run it, simple type: ```./a.out``` OR ```./name_of_executable```
